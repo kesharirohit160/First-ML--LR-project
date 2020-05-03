@@ -1,1 +1,1 @@
-gui: gunicorn app:rk_app
+web: gunicorn rk_app:app
